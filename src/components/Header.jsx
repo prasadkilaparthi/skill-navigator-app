@@ -21,6 +21,7 @@ const Header = () => {
             <>
               <Link to="/candidates" className="mr-4">Candidate Form</Link>
               <Link to="/udashboard" className="mr-4">User Dashboard</Link>
+              <Link to="/assessments" className="mr-4">Assessments</Link>
             </>
           ) : (
             <span>Please log in to access the navigation</span>

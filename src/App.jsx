@@ -8,6 +8,7 @@ import DashboardPage from './pages/DashboardPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import UserDashboard from './components/UserDashboard';
+import Assessments from './components/Assessments';
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/reports" element={<ReportsPage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/udashboard" element={<UserDashboard />} />
+        <Route path="/assessments" element={<Assessments />} />
       </Routes>
       <Footer />
     </Router>
