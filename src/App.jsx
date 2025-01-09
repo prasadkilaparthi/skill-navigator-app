@@ -7,6 +7,8 @@ import ReportsPage from './pages/ReportsPage';
 import DashboardPage from './pages/DashboardPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import UserDashboard from './components/UserDashboard';
+
 
 const App = () => {
   return (
@@ -18,6 +20,7 @@ const App = () => {
         <Route path="/feedback" element={<FeedbackPage />} />
         <Route path="/reports" element={<ReportsPage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
+        <Route path="/udashboard" element={<UserDashboard />} />
       </Routes>
       <Footer />
     </Router>
