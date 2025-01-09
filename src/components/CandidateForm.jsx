@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import FileUpload from "./FileUpload";
+import FileUpload from "./FIleUpload"
 import { validateEmail } from "../utils/Validation";
 import UserDashboard from "./UserDashboard";
 
